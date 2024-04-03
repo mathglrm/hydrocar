@@ -1,0 +1,42 @@
+header {
+    position: relative;
+}
+
+img {
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.heading-content {
+    top: 50%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.heading-content h1 {
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+}
+
+.heading-content p {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+}
+
+.button {
+    padding: 12px 22px;
+    background-color: #4CAF50;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s;
+}
